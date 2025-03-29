@@ -1,0 +1,6 @@
+[FORMAT]
+max-line-length=120
+[MESSAGES CONTROL]
+disable=
+  C0301, # Line too long (handled by black)
+  W0511, # TODO (you might want to keep this)

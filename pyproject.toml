@@ -1,0 +1,30 @@
+[project]
+name = "pytestrailreporter"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Alok Nag",email = "nag.alok@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pytest (>=8.3.5,<9.0.0)",
+    "pyyaml (>=6.0.2,<7.0.0)",
+    "requests (>=2.32.3,<3.0.0)",
+    "testrail-api (>=1.13.2,<2.0.0)",
+    "tenacity (>=9.0.0,<10.0.0)"
+]
+
+[tool.poetry]
+packages = [{include = "pytestrailreporter", from = "src"}]
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^25.1.0"
+isort = "^6.0.1"
+pylint = "^3.3.6"
+pre-commit = "^4.2.0"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
