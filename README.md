@@ -1,9 +1,5 @@
 # PyTestRailReporter
 
-[![PyPI version](about:sanitized)](https://badge.fury.io/py/pytest-testrail)
-[![License: MIT](about:sanitized)](https://opensource.org/licenses/MIT)
-[![Poetry](about:sanitized)](https://python-poetry.org/)
-
 **Seamless TestRail Integration for Pytest**
 
 PyTestRailReporter is a pytest plugin designed to bridge the gap between your pytest test runs and TestRail, the test case management system. This plugin automates the process of reporting your test results to TestRail, streamlining your testing workflow and improving collaboration.
