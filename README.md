@@ -1,7 +1,9 @@
 # PyTestRailReporter
 
 [![PyPI version](about:sanitized)](https://badge.fury.io/py/pytest-testrail)
+
 [![License: MIT](about:sanitized)](https://opensource.org/licenses/MIT)
+
 [![Poetry](about:sanitized)](https://python-poetry.org/)
 
 **Seamless TestRail Integration for Pytest**
